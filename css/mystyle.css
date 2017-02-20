@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+li {
+    display: inline;
+}
+body {
+    background-color: lightblue;
+	font-family: verdana;
+    font-size: 14px;
+	color:navy;
+}
+.container {
+	width: 50%;
+	padding: 10px;
+	margin: 20px auto;
+	border: 2px solid green;
+	background-color: #eee;
+}
