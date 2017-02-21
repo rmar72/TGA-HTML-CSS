@@ -1,0 +1,19 @@
+body{
+  background-color: lightgrey;
+}
+
+.header{
+  width=100%;
+  margin=0px
+}
+
+.header #headerlinks1{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.header #headerlinks2{
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
