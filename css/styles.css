@@ -16,10 +16,10 @@ li {
 }
 /* HEADER */
 header {
-  /*height: 80px;*/
   width: 80vw;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 0px 10px;
   margin: 20px auto;
 }
@@ -28,8 +28,6 @@ header ul {
 }
 header li {
   padding-left: 20px;
-  /*align-items: flex-end;*/
-  text-align: right;
 }
 header a {
   text-decoration: none;
@@ -52,20 +50,27 @@ header a {
   font-size: 14px;
 }
 
+
 /* NAVIGATION */
 nav {
   width: 80vw;
   height: 30px;
   display: flex;
   align-items: center;
+  /*justify-content: flex-start;*/
   background-color: white;
   margin: auto;
 }
+nav ul {
+  padding-left: 5px;
+  /*justify-content: flex-start;*/
+}
 nav li {
-  padding-right: 30px;
+  padding: 0 10px;
+  height: 18px;
   font-weight: bold;
   font-size: .85em;
-  /*border-left: 1px solid #F2F2F2;*/
+  border-right: 1px solid #F2F2F2;
 }
 nav a {
   text-decoration: none;
@@ -73,16 +78,32 @@ nav a {
 }
 
 /* HERO */
-.hero {
+.section {
   display: flex;
   margin: 20px auto;
+  padding-bottom: 20px;
   width: 80vw;
+  border-bottom: 1px solid #CCCCCC;
 }
 .hero img {
-  height: 300px;
+  height: 350px;
   width: 65%;
   object-fit: cover;
 }
 .hero article {
   margin-left: 20px;
+  padding-right: 30px;
+  line-height: 1.5em;
+}
+
+/* ARTICLES SECTION */
+.article {
+  padding: 0 20px;
+}
+.newsletter-heading {
+  font-weight: bold;
+  font-size: .85em;
+}
+.date {
+  font-size: .85em;
 }
