@@ -1,0 +1,26 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+  color: #575757;
+	min-height: 500px;
+  padding: 10px;
+}
+.header {
+  padding: 1px;
+  color: #373737;
+	width: 300px;
+	height: 100px;
+	background-color: #ddd;
+	border: 1px solid #ccc;;
+}
+.Contact.log {
+  float: right;
+  display: inline;
+  top: 10px;
+}
+.Search {
+  float: right;
+  top: 20px;
+}
+.button-group . button{
+
+}
