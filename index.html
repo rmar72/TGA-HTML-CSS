@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TG-HTML-101</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div>
+    <header>
+      <div class="webLogo">
+        <img class="logoImg" src="images/webLogo.png">
+      </div>
+      <div class="webSearch">
+        <p> <a href="javascript:void(0)">Contact Us</a> <a href="javascript:void(0)">Log In</a></p>
+        <p><input type="text" name="search"><input type="submit" value="Search"></p>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href=javascript:void(0)>About Us</a></li>
+          <li><a href=javascript:void(0)>Our Approach</a></li>
+          <li><a href=javascript:void(0)>Our Work</a></li>
+          <li><a href=javascript:void(0)>clients</a></li>
+          <li><a href=javascript:void(0)>Resources</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="slides">
+      <section id="slideShow">
+        <img class="mySlides" src="images/1.png">
+        <img class="mySlides" src="images/2.png">
+      </section>
+
+      <section id="slideShow_description">
+        <h1>Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincident.</h1>
+
+        <p>Lorem ipsum dolor sit amet, consetetuer adipiscing elit., sed diam noummy nibh euismod tincident ut loareet dolere
+          magna aliquam erat</p>
+
+        <a href="javascript:void(0)">Read More</a>
+      </section>
+    </div>
+
+    <div class="threeColumns">
+      <section id="newsLetter">
+        <h1>Newsletter Title</h1>
+        <a href="=" javaascript:void(0)><img class="newsLetter_Img" src="images/newsletter.jpg"></a>
+        <p>Lorem ipsum dolor sit amet, consetetuer adipiscing elit., sed diam noummy nibh euismod tincident ut loareet dolere
+          magna aliquam erat... <a href="javascript:void(0)">Read More</a></p>
+      </section>
+
+      <section id="blog">
+        <h1>Blog Post Title</h1>
+        <p>Januar 1, 2011 by <a href="javascript:void(0)">Huy</a></p>
+        <p>
+          <a href="=" javaascript:void(0)><img class="newsLetter_Img" src="images/newsletter.jpg" align="left"></a>Lorem ipsum dolor sit amet, consetetuer
+          adipiscing elit., sed diam noummy nibh euismod tincident ut loareet dolere magna aliquam erat... <a href="javascript:void(0)">Read More</a></p>
+
+      </section>
+      <section id="signUp">
+        <h1>Sign Up</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer.</p>
+        <p><input type="text" name="name" placeholder="Your Name"></p>
+        <p></p><input type="text" name="email" placeholder="Your Email Address"></p>
+        <p></p><input type="submit" value="Submit"></p>
+      </section>
+    </div>
+
+    <footer>
+      <p>@2011 Your Company | New York, NY | 800-123-4567</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer.</p>
+    </footer>
+  </div>
+</body>
+
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {
+      myIndex = 1
+    } x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 2000);//every 2 seconds
+  }
+
+</script>
+
+</html>

@@ -1,0 +1,86 @@
+body{
+    background-color: gray;
+}
+
+header{
+    display: inline-block;
+    width: 100%;
+}
+.webLogo{
+    float: left;
+    margin: auto;
+    width: 50%;
+}
+
+.logoImg{
+    width: 300px;
+}
+.webSearch{
+    text-align: right;
+    float: right;
+     width: 50%;
+}
+
+.navbar{
+    width: 100%;
+    float: left;
+}
+.navbar ul{
+    border-style: ridge;
+    background-color: lightgray;
+}
+
+.navbar li{
+    display: inline;
+    border-right: 1px solid #000000;
+    padding-right: 5px;
+}
+
+.slides{
+    width: 100%;
+}
+#slideShow{
+    float: left;
+    width: 50%;
+}
+
+.mySlides{
+    width: 50%;
+    margin: auto;
+}
+#slideShow_description{
+    float: left;
+    width: 50%;
+}
+
+.threeColumns{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#newsLetter{
+    float: left;
+    width:30%;
+    border-right: 1px solid black;
+}
+
+#blog{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 30%;
+    border-right: 1px solid black;
+}
+
+#signUp{
+    padding-left: 10px;
+    float: left;
+    width: 30%;
+}
+
+#footer{
+    float: left;
+}
