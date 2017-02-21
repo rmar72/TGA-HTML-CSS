@@ -3,17 +3,29 @@ body{
 }
 
 .header{
+  position: relative;
   width=100%;
-  margin=0px
+  margin=0px;
 }
 
-.header #headerlinks1{
-  position: absolute;
-  top: 50px;
-  right: 50px;
+.headerlinks {
+  position:absolute;
+  top: 25%;
+  right: 0;
 }
-.header #headerlinks2{
-  position: absolute;
-  top: 0px;
-  right: 100px;
+
+.headerlinks li{
+  display: inline;
+  padding:4px;
+  margin-left: 5px;
+  list-style-type: none;
+}
+
+.search {
+  display: inline;
+  float: right;
+}
+
+.searchbutton{
+  margin-left: 20px;
 }
