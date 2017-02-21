@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+header{
+    background-color: darkred;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 0;
+}
+.logo {
+    height: 100px;
+    width: 150px;
+}
+.newspic{
+    height: 200px;
+    width: 600px;
+}
+.smallimg {
+    height: 60px;
+    width: 80px;
+    float: left;
+    margin: 5%;
+}
+.smallimg2 {
+    height: 50px;
+    width: 60px;
+    float: left;
+    margin: 5%
+}
+.mainNav {
+    background-color: red;
+    margin: 0;
+    
+}
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-right: 1px solid red;
+}
+.nav {
+    padding: 5px;
+    background-color: black;
+    display: flex;
+}
+.contact {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    margin-right: 20px;
+    
+}
+.contact li {
+    padding: 4px;
+    margin-left: 5px;
+    border: none;
+}
+.searchBox {
+    display: inline;
+    float: right;
+}
+.input {
+    margin-right: 20px; 
+}
+.container {
+    background-color: #1a1a1a;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.container #link {
+    float: right;
+}
+.textbox1 {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    position: absolute 50% 0;
+    margin-bottom: 10px;
+}
+.heroSlider {
+    display: inline-block;
+    width: 700px;
+    height: 250px;
+    float: left;
+    position: absolute 50%;
+    padding: 10px;
+}
+#lowertxt{
+    padding-bottom: 10px;
+}
+h3 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.container2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid black;
+}
+.container2 #leftbox {
+    display: inline-block;
+    position: relative;
+    width: 33%;
+    float: left;
+    padding: 10px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    background-color: darkred;
+}
+.container2 #newslink {
+    float: right;
+}
+.container2 #middlebox {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    float: left;
+    padding: 10px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    
+}
+.container2 #rightbox {
+    display: block;
+    float: left;
+    width: 28%;
+    padding: 20px 20px 305px 10px;
+    border-top: 2px solid black;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+}
+.newspic {
+    height: 250px;
+    width: 300px;
+    margin-top: 50px;
+}
+.top {
+    border-bottom: 1px solid black;
+    
+}
+.input2 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.signup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.signin {
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+footer {
+    display: inline-block;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+}
