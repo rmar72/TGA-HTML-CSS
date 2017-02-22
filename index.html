@@ -1,72 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Travis Wise</title>
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <meta charset="utf-8">
+    <title>Travis Wise</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
+
 <body>
-  <div class="header">
-    <img id="logo" src="image/logo.png" alt="logo"/>
-    <ul id ="rightlinks">
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Login</a></li>
+
+    <div class="header">
+        <img id="logo" src="#" alt="logo" />
+        <ul id="rightlinks">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <br>
+        <br>
+        <form id="searchform">
+            <input type="text" placeholder="Search..." required>
+            <input type="button" id="searchbutton" value="Search">
+        </form>
+    </div>
+    <ul id="nav">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">My Approach</a></li>
+        <li><a href="#">My Work</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Resources</a></li>
     </ul>
-      <br>
-      <br>
-    <form>
-      <input type="text" placeholder="Search..." required>
-      <input type="button" id="searchbutton" value="Search">
-    </form>
-</div>
-<ul id="nav">
-	<li><a href="#">About Me</a></li>
-	<li><a href="#">My Approach</a></li>
-	<li><a href="#">My Work</a></li>
-	<li><a href="#">Clients</a></li>
-	<li><a href="#">Resources</a></li>
-</ul>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="main">
-  <div id = "slideshow">
-    <table width="700" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td bgcolor="gray" width="700px" height="250px" align="center">[slideshow]
-        </td>
-</tr>
-</table>
-</div>
-  <div id="rightmain">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate odio eu lorem euismod, et pretium risus vulputate. Duis luctus risus et orci vehicula, in ullamcorper urna malesuada. Integer convallis quam vel semper ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a consectetur nisl. Sed commodo rhoncus erat, vel tristique massa luctus at. Nunc bibendum velit elit, et fringilla lacus tempor quis. Integer scelerisque luctus odio vel maximus. Nullam faucibus nunc eu sagittis rutrum. Nulla non urna sit amet arcu rhoncus vulputate ut ac massa.
-   </div>
-</div>
-<br>
-<div class="columns">
-  <div id="column-left">
-    <b>Newsletter</b> | January, 2011
     <br>
     <br>
-    <h4><b>Newsletter Title</B><h4>
+    <br>
+    <br>
+    <br>
+    <div class="main">
+        <div id="slideshow">
+            <table width="700" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td bgcolor="gray" width="700px" height="250px" align="center">[slideshow]
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-      <table width="250" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td bgcolor="gray" width="250px" height="150px" align="center">[image]
-        </td>
-</tr>
-</table>
 
-  </div>
-  <div id="column-right">Sign Up</div>
-  <div class="column-center">
-    <div id="cent-col-top">From The Blog</div>
-    <div id="cent-col-bot">Blog Post Title</div>
-  </div>
-</div>
+        <div id="rightmain"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate odio eu lorem euismod, et pretium risus vulputate.</b><br>
+            <p> Duis luctus risus et orci vehicula, in ullamcorper urna malesuada. Integer convallis quam vel semper ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur a consectetur nisl. Sed commodo
+                rhoncus erat, vel tristique massa luctus at. Nunc bibendum velit elit, et fringilla lacus tempor quis. Integer scelerisque luctus odio vel maximus. Nullam faucibus nunc eu sagittis rutrum. Nulla non urna sit amet arcu rhoncus vulputate
+                ut ac massa.<br>
+                <a href="#">Read More</a></p>
+        </div>
+    </div>
+    <br>
+    <div class="columns">
+        <div id="column-left">
+            <b>Newsletter</b> | January, 2011
+            <br>
+            <br>
+            <h4><b>Newsletter Title</B><h4>
+
+        <table width="250" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td bgcolor="gray" width="250px" height="150px" align="center">[image]</td>
+  </tr>
+  </table>
+  <br>
+  <p>Praesent dignissim sem in ligula mattis, eget eleifend dui aliquam. Quisque tincidunt a ante eu placerat. Pellentesque at condimentum mauris. In hac habitasse platea dictumst. Vivamus eget nisi hendrerit, malesuada sem sed, dictum nisi. Phasellus pellentesque, sapien a volutpat efficitur, risus est aliquet nisi, velsed turpis. Vivamus non eleifend metus, sed auctor magna. Donec et nulla sit amet massa dapibus dignissim. Etiam tortor velit, fringilla in suscipit ac, dictum vitae augue. Sed ac viverra neque...
+    <a href="#">Read More</a></p>
+
+
+    </div>
+        <div id="column-right"><b>Sign Up</b><br><br><br>Nam eget eros semper, placerat urna eget, vulputate nibh.<br><br>
+          <form class="signup">
+        <input id = "name" type="text" placeholder="Your Name" required><br>
+        <input id ="email"type="text" placeholder="Your Email Address" required><br>
+        <input type="button" id="submitbutton" value="Submit">
+      </form>
+
+
+        </div>
+
+
+        <div class="column-center">
+      <div id="cent-col-top"><b>From The Blog</b><br><br><h4>Blog Post Title</h4>January 1, 2011 by <a href="#">John</a><br>
+            <p>
+                <table id="smallpic" width="75" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="gray" width="75px" height="75px" align="center">[image]</td>
+                    </tr>
+                </table>
+                Quisque justo sapien, hendrerit lacinia mi sit amet, fringilla sodales risus. Aenean eleifend imperdiet lacus id pharetra. Maecenas fringilla lacus justo. Nunc pretium, justo nec rutrum tempor, risus lectus porttitor magna, sed egestas arcu dolor ut diam.
+                Fusce non consectetur libero. Fusce blandit neque sit amet ex consequat scelerisque.
+                <a href="#">Read More</a></p>
+
+        </div>
+        <div id="cent-col-bot">
+            <h4>Blog Post Title</h4>January 1, 2011 by <a href="#">John</a><br>
+            <p>
+                <table id="smallpic" width="75px" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="gray" width="75px" height="75px" align="center">[image]</td>
+                    </tr>
+                </table>
+                Quisque justo sapien, hendrerit lacinia mi sit amet, fringilla sodales risus. Aenean eleifend imperdiet lacus id pharetra. Maecenas fringilla lacus justo. Nunc pretium, justo nec rutrum tempor, risus lectus porttitor magna, sed egestas arcu dolor ut diam.
+                Fusce non consectetur libero. Fusce blandit neque sit amet ex consequat scelerisque.
+                <a href="#">Read More</a></p>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2011 Your Company | New York, NY | 800-123-4567<br> Integer sodales sagittis elit id cursus. Proin leo ex, dapibus in interdum quis, malesuada eget sapien.<br> Sed sed purus id nibh egestas tincidunt eu et quam.
+    </div>
 
 
 
 </body>
+
 </html>
