@@ -27,11 +27,9 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0px 10px;
   margin: 20px auto;
-}
-header ul {
-  justify-content: flex-end;
 }
 header li {
   padding-left: 20px;
@@ -41,7 +39,6 @@ header a {
   color: #1C86EE;
   font-weight: 400;
   font-size: .85em;
-  align-items: flex-end;
 }
 .logo-container{
   width: 140px;
@@ -64,17 +61,16 @@ nav {
   height: 30px;
   display: flex;
   align-items: center;
-  /*justify-content: flex-start;*/
   background-color: white;
   margin: auto;
 }
 nav ul {
   padding-left: 5px;
-  /*justify-content: flex-start;*/
 }
 nav li {
   padding: 0 10px;
-  height: 18px;
+  height: 30px;
+  line-height: 2.25em;
   font-weight: bold;
   font-size: .85em;
   border-right: 1px solid #F2F2F2;
@@ -87,7 +83,7 @@ nav a {
 /* HERO */
 .section {
   display: flex;
-  flex-direction: row;
+  /*flex-wrap: wrap;*/
   margin: 20px auto;
   padding-bottom: 20px;
   width: 80vw;
@@ -97,6 +93,8 @@ nav a {
   height: 350px;
   width: 65%;
   object-fit: cover;
+  /*flex-basis: 60%;*/
+  /*flex-shrink: 1;*/
 }
 .hero article {
   margin-left: 20px;
@@ -104,22 +102,19 @@ nav a {
 }
 
 /* ARTICLES SECTION */
-.three-column-section {
+.wrap {
   flex-wrap: wrap;
-  /*justify-content: center;*/
-  align-content: flex-start;
-  align-items: stretch;
 }
 .article-wrapper {
   width: 33%;
   border-right: 1px solid #CCCCCC;
-  flex-wrap: wrap;
+}
+.no-border {
+  border-right: none;
 }
 .article {
   padding: 0 20px;
   flex-grow: 1;
-  /*flex-shrink: 0;
-  flex-basis: 300px;*/
 }
 .newsletter-heading {
   font-weight: bold;
@@ -147,7 +142,6 @@ figure {
 .blog-image {
   float:left;
   margin-right: 1em;
-  /*margin-top: 2.3em;*/
   height: 70px;
   width: 70px;
   object-fit: cover;
