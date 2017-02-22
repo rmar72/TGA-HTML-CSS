@@ -11,26 +11,26 @@ body {
     margin: 0px;
 }
 
-.header #logo {
+.header .logo {
     height: 50px;
     width: 125px;
     float: left;
 }
 
-#rightlinks {
+.rightlinks {
     position: absolute;
     margin-right: 20px;
     top: 0;
     right: 0;
 }
 
-#rightlinks li {
+.rightlinks li {
     display: inline;
     padding: 1px;
     margin: 5px;
 }
 
-#searchform {
+.searchform {
     float: right;
 }
 
@@ -39,7 +39,7 @@ body {
     border: 1px solid #000000;
 }
 
-#nav {
+.nav {
     width: 100%;
     float: left;
     margin: 10 3em 0;
@@ -48,12 +48,12 @@ body {
     background-color: #bdbfc1;
 }
 
-#nav li {
+.nav li {
     float: left;
 }
 
-#nav li a {
-    display: block;
+.nav li a {
+    display: inline-block;
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
@@ -67,13 +67,13 @@ body {
     margin: 5px;
 }
 
-#slideshow {
+.slideshow {
     float: left;
     height: 250px;
     width: 59%;
 }
 
-#rightmain {
+.rightmain {
     width: 40%;
     height: 250px;
     float: right;
@@ -87,7 +87,7 @@ body {
     border-top: 1px solid #8A8A8A;
 }
 
-.columns #column-left {
+.columns .column-left {
     width: 32%;
     height: 100%;
     margin-top: 20px;
@@ -95,7 +95,7 @@ body {
     float: left;
 }
 
-.columns #column-right {
+.columns .column-right {
     width: 32%;
     height: 100%;
     margin-top: 20px;
@@ -112,19 +112,19 @@ body {
     border-left: 1px solid #8A8A8A;
 }
 
-#cent-col-top {
+.cent-col-top {
     height: 50%;
     margin: 20px;
     padding-top: 5px;
     border-bottom: 1px solid #8A8A8A;
 }
 
-.columns #cent-col-bot {
+.columns .cent-col-bot {
     height: 50%;
     margin: 20px;
 }
 
-#smallpic {
+.smallpic {
     float: left;
     margin: 5px;
 }
@@ -134,11 +134,11 @@ body {
     margin: 10px;
 }
 
-#name {
+.name {
     margin-bottom: 10px;
 }
 
-#email {
+.email {
     margin-bottom: 15px;
 }
 
