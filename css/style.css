@@ -2,85 +2,32 @@ body{
     background-color: gray;
 }
 
-header{
-    display: inline-block;
-    width: 100%;
-}
-.webLogo{
-    float: left;
-    margin: auto;
-    width: 50%;
+.navbar-default{
+    background-color: gray;
 }
 
-.logoImg{
-    width: 300px;
-}
-.webSearch{
-    text-align: right;
-    float: right;
-     width: 50%;
+.navbar-link{
+    color: blue;
 }
 
-.navbar{
-    width: 100%;
-    float: left;
-}
-.navbar ul{
-    border-style: ridge;
-    background-color: lightgray;
+.panel-default{
+    background-color: lightgrey;
 }
 
-.navbar li{
-    display: inline;
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.nav-pills li{
     border-right: 1px solid #000000;
-    padding-right: 5px;
 }
 
-.slides{
-    width: 100%;
-}
-#slideShow{
-    float: left;
-    width: 50%;
+.three-columns-container{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
-.mySlides{
-    width: 50%;
-    margin: auto;
-}
-#slideShow_description{
-    float: left;
-    width: 50%;
-}
-
-.threeColumns{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    float: left;
-    width: 100%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-#newsLetter{
-    float: left;
-    width:30%;
-    border-right: 1px solid black;
-}
-
-#blog{
-    padding-left: 10px;
-    padding-right: 10px;
-    float: left;
-    width: 30%;
-    border-right: 1px solid black;
-}
-
-#signUp{
-    padding-left: 10px;
-    float: left;
-    width: 30%;
-}
-
-#footer{
-    float: left;
+.blog-container{
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
 }
