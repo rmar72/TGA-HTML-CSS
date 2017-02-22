@@ -1,18 +1,19 @@
 body{
-  background-color: lightgrey;
+  background-color: grey;
+  margin: 0;
 }
 
 .header{
   position: relative;
   top: 25%;
-  left: 10px;
+  left: 15px;
   width=100%;
   margin=0;
 }
 
 .headerlinks{
   position:absolute;
-  top: 25%;
+  top: 10%;
   right: 59px;
 }
 
@@ -26,7 +27,7 @@ body{
 .search{
   position:absolute;
   display: inline;
-  top: 100%;
+  top: 60%;
   right: 59px;
 }
 
@@ -35,25 +36,34 @@ body{
 }
 
 .navigation{
-  position:absolute;
-  top: 11%;
-  left: 0;
+  position:relative;
+  top: 20%;
+  left: 15px;
+  width: 97%;
+  padding: 0;
+  background-color: lightgrey;
 }
 
 .navigation li{
   display: inline-block;
-  padding:15px;
+  padding:20px;
   margin-left: 2px;
+  border-right: 1px solid black;
   list-style-type: none;
+}
+
+.navigation li a{
+  text-decoration:none;
+  color: black;
 }
 
 .outerbox{
   position:relative;
-  top:50px;
+  top:0;
   width: 95%;
   height: 1552px;
   padding: 20px;
-  margin: 50px 10px 50px 10px;
+  margin: 20px 10px 40px 10px;
   border: 2px solid black;
   background-color: lightgrey;
 }
@@ -145,7 +155,7 @@ body{
   background-color: lightgrey;
 }
 
-.signup{
+.signupbox{
   position: absolute;
   top: 0;
   left: 71.5%;
@@ -155,6 +165,18 @@ body{
   margin: 0 0 0 0;
   border: 2px solid black;
   background-color: lightgrey;
+}
+
+.name{
+  padding: 4px;
+}
+
+.email{
+  padding: 4px;
+}
+
+.submit{
+  padding: 4px;
 }
 
 .footer{
@@ -169,3 +191,9 @@ body{
   border: 2px solid black;
   background-color: lightgrey;
 }
+
+.footertext li{
+  display: inline-block;
+  padding:5px 0;
+  margin-right: 10px;
+  list-style-type: none;
