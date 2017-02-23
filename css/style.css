@@ -1,13 +1,27 @@
 body{
     background-color: gray;
+    padding: 10px;
 }
 
 .navbar-default{
     background-color: gray;
 }
 
-.navbar-link{
+.navbar-header{
+    width: 100%;
+}
+
+.nav-link{
     color: blue;
+    align-content: left;
+}
+
+.slideshow-container{
+    margin-bottom: 10px;
+}
+.header-links{
+    margin-top: 20px;
+    text-align: right;
 }
 
 .panel-default{
@@ -22,6 +36,10 @@ body{
     border-right: 1px solid #000000;
 }
 
+.navbar-form{
+    margin-top: 0px;
+}
+
 .three-columns-container{
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
@@ -30,4 +48,12 @@ body{
 .blog-container{
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
+}
+
+.blog-Img{
+    height: 50px;
+}
+
+hr{
+    border-color: black;
 }
