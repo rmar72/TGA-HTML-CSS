@@ -101,6 +101,10 @@ header li a {
     margin-right: 5px;
 }
 
+.blog-head {
+    padding-top: 20px;
+}
+
 .top {
     border-bottom: 1px solid black;
     padding-bottom: 40px;
