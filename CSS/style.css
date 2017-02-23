@@ -11,17 +11,20 @@ body {
 h1, h2 {
   margin: 0;
   padding: 0;
+
 }
 .container {
 	width: 100%;
 	height: 1585px;
 	margin: 20px auto;
 	background-color: lightgray;
+
 }
 .header {
 	height: 100px;
 	border: 1px solid gray;
 	position: relative;
+
 }
 .header1 {
 	width: 20%;
@@ -29,20 +32,24 @@ h1, h2 {
   background-color: silver;
 	position: relative;
 }
+
 .links {
 	position: absolute;
 	top: 10px;
 	right: 5px;
+
 }
 .search {
 	position: absolute;
 	top: 40px;
 	right: 5px;
 }
+
 .btn-group {
 	height: 30px;
 	background-color: white;
 }
+
 .btn-group .button {
     background-color: white;
     color: black;
@@ -56,33 +63,40 @@ h1, h2 {
 		height: 30px;
 		position: relative;
 }
+
 .btn-group .button:not(:last-child) {
     border-right: none; /* Prevent double borders */
 }
+
 .btn-group .button:hover {
     background-color: gray;
 }
+
 .topsection {
 	height: 420px;
 	padding: 20px;
 }
+
 .slideshow {
 	width: 600px;
 	height: 420px;
 	position: absolute;
 	 left: 10px;
 }
+
 .slideshowtext {
 	width: auto;
 	height: 420px;
 	position: absolute;
 	 left: 650px;
 }
+
 .mainbody {
 	width: 100%;
 	height: 840px;
 	position: relative;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -93,6 +107,7 @@ ul {
 li {
     float: left;
 }
+
 .newsletter {
 	padding: 20px;
 	margin: auto;
@@ -100,6 +115,7 @@ li {
 	height: 840px;
 	position: relative;
 }
+
 .blog {
 	padding: 20px;
 	margin: auto;
@@ -107,18 +123,22 @@ li {
 	height: 840px;
 	position: relative;
 }
+
 img {
     float: left;
     margin: 0 10px 10px 0px;
 }
+
 .blogtop {
 	height: 50%;
 		  border: 1px solid gray;
 }
+
 .blogbottom {
 			height: 50%;
 	  border: 1px solid gray;
 }
+
 .signup {
 	padding: 20px;
 	margin: auto;
@@ -126,13 +146,16 @@ img {
 	height: 840px;
 	position: relative;
 }
+
 .signup-form{
 }
+
 .vertical-menu {
     width: 200px;
     height: 150px;
     overflow-y: auto;
 }
+
 .footer {
 	padding: 20px;
 	width: 100%;
