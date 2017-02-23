@@ -3,6 +3,12 @@ body{
   margin: 0;
 }
 
+img.blog{
+  float:left;
+  margin: 0;
+  padding: 0 15px 10px 0;
+}
+
 .header{
   position: relative;
   top: 25%;
@@ -22,6 +28,11 @@ body{
   padding:4px;
   margin-left: 5px;
   list-style-type: none;
+}
+
+.readmore{
+  float: right;
+  padding: 10px;
 }
 
 .search{
@@ -71,24 +82,24 @@ body{
 .slideshow{
   position: absolute;
   top:0px;
-  left: 0px;
-  width: 69.3%;
-  height: 500px;
+  left: 2px;
+  width: 69.4%;
+  height: 475px;
   padding: 19px;
   margin: 0 0 0 0;
-  border: 2px solid black;
+  border-bottom: 1px solid black;
   background-color: lightgrey;
 }
 
 .toprightarticle{
   position:absolute;
   top: 0;
-  right: 0;
-  width: 26.1%;
-  height:500px;
+  right: 2px;
+  width: 26.2%;
+  height:473px;
   padding:20px;
   margin: 0 0 0 0;
-  border: 2px solid black;
+  border-bottom: 1px solid black;
   background-color: lightgrey;
 }
 
@@ -101,7 +112,6 @@ body{
   height: 1010px;
   padding: 20px 18px;
   margin: 0 0 0 0;
-  border: 2px solid black;
   background-color: lightgrey;
 }
 
@@ -114,7 +124,6 @@ body{
   height: 840px;
   padding: 20px;
   margin: 0 0 0 0;
-  border: 2px solid black;
   background-color: lightgrey;
 }
 
@@ -127,31 +136,23 @@ body{
   height: 840px;
   padding: 20px;
   margin: 0 0 0 0;
-  border: 2px solid black;
   background-color: lightgrey;
 }
 
 .blogtop{
-  position: absolute;
+  position:absolute;
   top: 0;
   left: 34.75%;
   width: 34.5%;
   height: 400px;
   padding: 20px;
   margin: 0 0 0 0;
-  border: 2px solid black;
+  border-left: 1px solid black;
   background-color: lightgrey;
 }
 
 .blogbody1{
-  position:absolute;
-  top: 20%;
-  left: 30%;
-  width: 60%;
-  height: 66%;
-  padding: 10px;
-  border: 2px solid black;
-  background-color: lightgrey;
+  display: inline;
 }
 
 .blogbottom{
@@ -162,30 +163,24 @@ body{
   height: 400px;
   padding: 20px;
   margin: 0 0 0 0;
-  border: 2px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
   background-color: lightgrey;
 }
 
 .blogbody2{
-  position:absolute;
-  top: 5%;
-  left: 30%;
-  width: 60%;
-  height: 70%;
-  padding: 10px;
-  border: 2px solid black;
-  background-color: lightgrey;
+display: inline;
 }
 
 .signupbox{
   position: absolute;
   top: 0;
   left: 71.5%;
-  width: 26.2%;
+  width: 25.75%;
   height: 840px;
   padding: 20px;
   margin: 0 0 0 0;
-  border: 2px solid black;
+  border-left: 1px solid black;
   background-color: lightgrey;
 }
 
@@ -209,8 +204,8 @@ body{
   width: 94.3%;
   height: 125px;
   padding: 20px 18px;
-  margin: 0 0 0 0;
-  border: 2px solid black;
+  margin: 2px;
+  border: 1px solid black;
   background-color: lightgrey;
 }
 
