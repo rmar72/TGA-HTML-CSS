@@ -1,64 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Class Assignment</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Class assignment</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
   </head>
   <body>
-
-     <div class="container">
-      <div class="header">
-        <div class="header1">
-          <h3>Yoursite.com</h3>
-          Website prototype
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12"></div>
+      </div>
+    <div class="page-header">
+      <section>
+      <!-- <div class="logo"> -->
+        <!-- <img src="images/Techtonic.png" alt="Logo"> -->
+      <!-- </div> -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-          <div class="links">
-             <a href="https://www.w3schools.com">Contact Us</a>
-             <a href="https://www.w3schools.com">Login</a>
-          </div>
-          <div class="search">
-            <form action="/action_page.php">
-              <input type="text" name="fname">
-              <input type="submit" value="Search">
-            </form>
-          </div>
+    <!-- <a class="navbar-brand" href="#">Brand</a> -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+        <div class="logo">
+          <img src="images/Techtonic.png" alt="Logo">
+        </div>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <div class="links">
+          <a href="https://www.w3schools.com">Contact Us</a> &nbsp &nbsp
+          <a href="https://www.w3schools.com">Login</a>
+        </div>
+        <div class="search">
+          <form action="/action_page.php">
+            <input type="text" name="fname">
+            <input type="submit" value="Search">
+          </form>
+        </div>
+        </ul>
       </div>
-
-      <div class="btn-group">
-         <button class="button"><a href="https://www.w3schools.com">About Us</a></button>
-         <button class="button"><a href="https://www.w3schools.com">Our Approach</a></button>
-         <button class="button"><a href="https://www.w3schools.com">Our Work</a></button>
-         <button class="button"><a href="https://www.w3schools.com">Clients</a></button>
-         <button class="button"><a href="https://www.w3schools.com">Resources</a></button>
+      </nav>
+      </section>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-
-      <div class="topsection">
-        
-        <div class="slideshow">
+  <!-- <a class="navbar-brand" href="#">Brand</a> -->
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-left">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Approach</a></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+    </nav>
+</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
           <img src="images/map.jpg">
         </div>
-      <div class="slideshowtext">
+        <div class="col-sm-6">
         <h3>Why use Lorem Ipsum Generator?<br></h3>
         When you construct a web design you are most likely to not have any content in the beginning.
         So for the first time you show your web design for your client it can be useful to have some
         text to show so your client can imagine how it will look like when it is finished. That is
         why you should use our Lorem Ipsum Generator to generate simple text to fill your projects
-        with. We hope you enjoy it and find it useful!<br><br>
-        <a href="https://www.w3schools.com">Read more</a>
+        with. We hope you enjoy it and find it useful!
       </div>
-    </div>
+      </div>
 
-    <hr width="90%" align="center">
-
-      <div class="mainbody">
-        <ul>
-          <li>
-
+      <div class="row">
+          <div class="col-sm-4">
             <div class="newsletter">
               <b>Newsletter  |  January, 2011<br><br>
                 Newsletter Title</b>
-                <img src="images/dark-forest-road.jpg"><br>
+                <img src="images/dark-forest-road.jpg" class="img-responsive"><br>
                 <br>When you construct a web design you are most likely to not have any content in the beginning.
                 So for the first time you show your web design for your client it can be useful to have some
                 text to show so your client can imagine how it will look like when it is finished. That is
@@ -66,62 +101,83 @@
                 with. We hope you enjoy it and find it useful!<br><br>
                 <a href="https://www.w3schools.com">Read more</a>
             </div>
-        </li>
-        <li>
+          </div>
+          <div class="col-sm-4">
+            <div class="blog">
+              <h4>From the Blog</h4>
+              <div class="blogtop">
+                <b>Blog Post Title</b><br>
+                January 1, 2011 by <a href="https://www.w3schools.com">John</a><br><br>
+                <img src="images/thickness.jpg" class="img-responsive">
+                When you construct a web design you are most likely to not have any content in the beginning.
+                So for the first time you show your web design for your client it can be useful to have some
+                text to show so your client can imagine how it will look like when it is finished. That is why
+                you should use our Lorem Ipsum Generator to generate simple text to fill your projects with.
+                We hope you enjoy it and find it useful!...
+                <a href="https://www.w3schools.com">Read more</a>
+              </div>
 
-          <div class="blog">
-            <h4>From the Blog</h4>
-            <div class="blogtop">
-              <b>Blog Post Title</b><br>
-              January 1, 2011 by <a href="https://www.w3schools.com">John</a><br><br>
-              <img src="images/thickness.jpg">
+              <div class="blogbottom">
+                <b>Blog Post Title</b><br>
+                January 1, 2011 by <a href="https://www.w3schools.com">John</a><br><br>
+                <img src="images/Earth.png" class="img-responsive">
+                When you construct a web design you are most likely to not have any content in the beginning.
+                So for the first time you show your web design for your client it can be useful to have some
+                text to show so your client can imagine how it will look like when it is finished. That is why
+                you should use our Lorem Ipsum Generator to generate simple text to fill your projects with.
+                We hope you enjoy it and find it useful!...
+                <a href="https://www.w3schools.com">Read more</a>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="signup">
+              <h4>Signup</h4>
               When you construct a web design you are most likely to not have any content in the beginning.
-              So for the first time you show your web design for your client it can be useful to have some
-              text to show so your client can imagine how it will look like when it is finished. That is why
-              you should use our Lorem Ipsum Generator to generate simple text to fill your projects with.
-              We hope you enjoy it and find it useful!...
-              <a href="https://www.w3schools.com">Read more</a>
-            </div>
-
-            <div class="blogbottom">
-              <b>Blog Post Title</b><br>
-              January 1, 2011 by <a href="https://www.w3schools.com">John</a><br><br>
-              <img src="images/Earth.png">
-              When you construct a web design you are most likely to not have any content in the beginning.
-              So for the first time you show your web design for your client it can be useful to have some
-              text to show so your client can imagine how it will look like when it is finished. That is why
-              you should use our Lorem Ipsum Generator to generate simple text to fill your projects with.
-              We hope you enjoy it and find it useful!...
-              <a href="https://www.w3schools.com">Read more</a>
-            </div>
-        </div>
-      </li>
-      <li>
-
-        <div class="signup">
-          <h4>Signup</h4>
-          When you construct a web design you are most likely to not have any content in the beginning.
-          <div class="signup-form">
-            <div class="vertical-menu">
-              <form action="/action_page.php">
-                <input type="text" name="name" value="Your Name">
-                <input type="text" name="email" value="Your Email Address">
-                <input type="submit" value="Submit">
-              </form>
+              <div class="signup-form">
+                <div class="vertical-menu">
+                  <form action="/action_page.php">
+                    <input type="text" name="name" value="Your Name"><br />
+                    <input type="text" name="email" value="Your Email Address">
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </li>
-    </ul>
 
-<hr width="90%" align="center">
-
-        <div class="footer">
-          &#0169 2012 My Company | Denver, CO  |  800-GUD-CODE<br>
-          When you construct a web design<br>
-          you are most likely to not have any content in the beginning.
-        </div>
+        <div class="row">
+    <div class="col-sm-12">
+      <div class="footer">
+        &#0169 2012 My Company | Denver, CO  |  800-GUD-CODE<br>
+        When you construct a web design<br>
+        you are most likely to not have any content in the beginning.
       </div>
-	 </div>
+    </div>
+  </div>
+
+    </div>
+  <!-- </div> -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-*-*"></div>
+  </div>
+  <div class="row">
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+    <div class="col-*-*"></div>
+  </div>
+  <div class="row">
+    ...
+  </div>
+</div>
