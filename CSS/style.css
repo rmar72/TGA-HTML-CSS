@@ -4,6 +4,32 @@
 body {
 	background-color: lightgray;
 }
-.page-header.navbar-header {
-	background-color: lightgray;
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.blog {
+	border-left: white solid 1px;
+	padding: 0px 20px 0px 20px;
+	border-right: white solid 1px;
+}
+
+.blogtopimage{
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+
+.blogbottomimage{
+	float: left;
+	padding: 0px 5px 0px 0px;
+}
+.namefield{
+	margin: 10px
+}
+.emailfield{
+	margin: 10px
+}
+.submitbutton{
+	margin: 10px
 }
