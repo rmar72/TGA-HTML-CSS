@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "BlaxSlabXXL";
+    src="BlaxSlabXXL.ttf"
+}
+
 .wrap {
     min-height: 100%;
     height: auto;
@@ -15,9 +20,13 @@
     margin: 0px;
     padding: 0px;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 60px;
+    font-family: "BlaxSlabXXL";
+    font-stretch: semi-condensed;
     text-align: left;
-    color: white;
+    text-shadow: 8px 5px 8px #000000;
+    letter-spacing: 3px;
+    color: #ffffff;
     border: none;
 }
 
@@ -88,10 +97,17 @@ header li a {
 .newsletter {
     background-color: darkred;
     padding: 20px;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px #000000;
     min-height: 100vh;
 }
-.news-text{
+
+.newsletter h3 {
+    color: white;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.news-text {
     padding-top: 20px;
 }
 
@@ -120,6 +136,12 @@ header li a {
     background-size: cover;
     padding: 20px;
     min-height: 100vh;
+}
+
+@media only screen and (min-width: 400px) {
+    .sign-in {
+        background-image:
+    }
 }
 
 .input2 {
