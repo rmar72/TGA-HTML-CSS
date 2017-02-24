@@ -1,42 +1,20 @@
-body {
-  /*background-color: #E5E5E5;*/
-  color: #575757;
-}
+
 .background-gray {
   background-color: #E5E5E5;
 }
-/*li {
-  list-style: none;
-  display: inline-block;
-}*/
 p {
   font-size: .85em;
-  /*line-height: 1.5em;
-  margin-top: -5px;*/
+  color: #575757;
 }
-/*.blue-anchor {
-  color: #1C86EE;
-  font-size: .85em;
-}*/
+small {
+  color: #575757;
+}
+
 /* HEADER */
 header {
-  /*width: 80vw;*/
-  /*display: flex;*/
-  /*align-items: flex-start;*/
-  /*justify-content: space-between;*/
-  /*flex-wrap: wrap;*/
-  /*padding: 0px 10px;*/
   margin: 20px auto;
 }
-header li {
-  padding-left: 20px;
-}
-header li a.nav-link {
-  font-size: .85em;
-  padding-right: 0;
-}
-.logo-container{
-  /*width: 160px;*/
+.logo-container {
   background-color: #CCCCCC;
   font-weight: bold;
   color: #9E9E9E;
@@ -51,19 +29,11 @@ header li a.nav-link {
 
 /* NAVIGATION */
 nav {
-  /*width: 80vw;*/
   height: 30px;
-  /*display: flex;*/
-  /*align-items: center;*/
   background-color: white;
-  /*margin: auto;*/
-}
-nav ul {
-  /*padding-left: 5px;*/
 }
 nav li {
   padding: 0 10px;
-  height: 30px;
   line-height: 1.35em;
   font-weight: bold;
   font-size: .85em;
@@ -75,7 +45,7 @@ nav a {
 
 /* HERO */
 .section {
-  margin: 20px auto;
+  margin: 20px 0 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #CCCCCC;
 }
@@ -85,17 +55,9 @@ nav a {
   width: 100%;
   object-fit: cover;
 }
-/*.hero article {
-  margin-left: 20px;
-  padding-right: 30px;
-}*/
 
 /* ARTICLES SECTION */
-/*.wrap {
-  flex-wrap: wrap;
-}*/
 .article-wrapper {
-  /*width: 33%;*/
   border-right: 1px solid #CCCCCC;
 }
 .no-border {
@@ -107,17 +69,17 @@ nav a {
 .newsletter-heading {
   font-weight: bold;
   font-size: .85em;
+  color: #575757;
 }
 .date {
   font-size: .85em;
+  color: #575757;
 }
 .article-title {
   margin: .5em 0;
+  color: #575757;
 }
 .newsletter-image {
-  /*height: 250px;
-  width: 100%;*/
-  /*object-fit: cover;*/
   margin-bottom: 15px;
 }
 .p-margin-top{
@@ -145,12 +107,9 @@ nav a {
   margin-top: 10px;
 }
 .sign-up-input {
-  width: 175px;
   margin-bottom: 10px;
 }
 footer {
-  margin: 20px auto;
   padding-bottom: 20px;
-  width: 80vw;
   font-size: .75em;
 }
