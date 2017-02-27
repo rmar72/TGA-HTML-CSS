@@ -10,8 +10,6 @@
     <link href="templates/css/styles.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script language="javascript" type="text/javascript" src="js/jquery.jfeed.js"></script>
-    <script language="javascript" type="text/javascript" src="js/jquery.aRSSFeed.js"></script>
 </head>
 
 <body>
@@ -48,11 +46,46 @@
         <div class="row">
             <div class="col-sm-7">
                 <div class="jumbotron">
-                    <h1>Slideshow</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus enim eleifend eu. Nulla facilisi. Aliquam id varius nisi, sit amet convallis purus.</p>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images\large-hadron-collider-illustration.jpeg" alt="hadron">
+                            </div>
+                            <div class="item">
+                                <img src="images\hacking.jpg" alt="hacking">
+                            </div>
+                            <div class="item">
+                                <img src="images\math_science__technology.jpg" alt="mathscience">
+                            </div>
+                            <div class="item">
+                                <img src="images\terminal-703853.jpg" alt="terminal">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><b>Sed nec consectetur ipsum. Nulla at sem sed eros pharetra blandit. Nulla facilisi. Curabitur ut auctor neque, et finibus lacus. Suspendisse porttitor quam a mi finibus semper.</b></div>
+                    <div class="panel-body">
+                        Cras quis egestas sapien. Sed justo lorem, vehicula dignissim sem at, varius ullamcorper velit. Curabitur porttitor mauris et feugiat condimentum. Praesent tincidunt elit eget ex vestibulum iaculis. Donec id quam fermentum, accumsan eros a, mollis elit.
+                        Maecenas ullamcorper, leo ut fringilla imperdiet, lacus diam porta odio, sed ornare purus dolor sit amet lorem. Praesent facilisis blandit urna ac efficitur. Curabitur consectetur erat sit amet nulla semper fringilla.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -60,7 +93,9 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="panel panel-default">
+                    <div class="panel-heading"><b>Newsletter</b></div>
                     <div class="panel-body">
+
                         Vestibulum vestibulum mi viverra mauris rutrum posuere. Maecenas pellentesque, magna mattis accumsan volutpat, leo nisi aliquet est, quis aliquam dui nibh sed nulla. Aenean commodo mollis sodales. Morbi aliquam consequat sem. Phasellus
                     </div>
                 </div>
@@ -68,6 +103,7 @@
             <div class="col-sm-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
+                        <div class="panel-heading">From the Blog</div>
                         <div class="media">
                             <div class="media-left media-top">
                                 <img src="#" class="media-object" style="width:60px" alt=" logo">
@@ -91,21 +127,20 @@
             </div>
             <div class="col-sm-4 ">
                 <div class="panel panel-default ">
+                    <div class="panel-heading"><b>Sign Up</b></div>
                     <div class="panel-body ">
 
 
-                      <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Your Name">
-                          <input type="text" class="form-control" placeholder="Your email">
-                          <div class="input-group-btn">
-                              <button class="btn btn-default" type="submit">
-                      <i class="glyphicon glyphicon-check"></i>
-                      </button>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" class="form-control" placeholder="Your email">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+<i class="glyphicon glyphicon-check"></i>
+</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-
-
-                     </div>
                 </div>
             </div>
         </div>
@@ -113,12 +148,10 @@
     <div class="row">
         <div class="panel panel-default">
             <div class="panel-footer">
-&copy; 2011 Your Company | New York, NY | 800-123-4567<br> Integer sodales sagittis elit id cursus. Proin leo ex, dapibus in interdum quis, malesuada eget sapien.<br> Sed sed purus id nibh egestas tincidunt eu et quam.
+                &copy; 2011 Your Company | New York, NY | 800-123-4567<br> Integer sodales sagittis elit id cursus. Proin leo ex, dapibus in interdum quis, malesuada eget sapien.<br> Sed sed purus id nibh egestas tincidunt eu et quam.
             </div>
         </div>
-
     </div>
-
 
 </body>
 
