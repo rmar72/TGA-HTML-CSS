@@ -1,3 +1,10 @@
+body {
+  background-color: #dddddd;
+}
+
+panel {
+  background-color: #dddddd;
+}
 .navbar-brand {
     margin: 0;
     padding: 0;
