@@ -1,0 +1,127 @@
+body{
+	background-color: white;
+	height: 2000px;
+}
+													/* Navbar */
+
+.navbar-inverse{
+	border: 1px solid LightSeaGreen;
+}
+.navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-tops{
+	position: fixed;
+}
+
+/*  navbar-buttons */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a{
+	color: LightSeaGreen;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
+	background-color: LightSeaGreen;
+}
+.navbar-inverse .navbar-nav>li>a{
+	text-align: center;
+	color: LightSeaGreen;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	font-weight:800;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	background-color: LightSeaGreen;
+	color:white;
+	font-size:large;
+	border:1px solid white;
+	font-weight:900;
+}
+
+/* Menu Dropdown*/
+.dropdown-menu>li>a{
+	color:rgba(195, 125, 218);
+	font-size:18px;
+}
+.dropdown-menu>li>a:hover{
+	color:white;
+	font-size:25px;
+	background-color:rgba(189, 119, 213, 0.75) !important; /* For mobile size, enables purple background on hover*/
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+	color:rgba(195, 125, 218);
+}	
+/* Dropdown search button*/
+button{
+	background-color:rgba(25,25,25,.5);
+	text-align:center;
+	max-width:80px;  
+	border:none; 
+	margin:0 0 0 0;
+}
+a{
+	color:grey;
+}	
+button a:hover{
+	color:LightSeaGreen; 
+}	
+
+
+												/* Top Module */
+
+/* 1st Section */
+.jumbotron{
+	background-color:rgba(16,16,16,0.8);
+	margin-top:0px;
+	position: relative;
+	top:50px;
+}
+.row{
+	margin-right:0;
+}
+.carousel {
+	width:100%;
+}
+
+/* 2nd Section */	
+#paraSection{
+	padding-top:70px;
+	margin-left:15px;
+	color:silver;
+}
+#paraSection .btn-primary{
+	background-color:rgba(189, 119, 213, 0.75);
+	outline:none;
+	border:1px solid white;
+}
+
+
+												/* Mid-Section Module */
+.iconsBar{
+	float:right;
+	padding-bottom:10px;
+}
+.mid-row{
+	background-color:lightgrey;
+	margin:100px 13px;
+	padding:10px;
+}
+.newsLetter{
+	background:url(../images/e5.jpg);
+	border-radius:25px;
+	color:white;
+	font-weight:700;
+	margin:10px 0 10px 10px; 
+	padding:30px 0; 
+	height:280px;
+}	
+.blogPost{
+	background-color:#F5F5DC;
+	border:1px solid grey;
+	margin:10px 0;
+}
+.blogPost img{
+	height:180px;
+	width:70%;
+	margin:5px auto;
+}
+.blogPost a{
+	color:lightSeaGreen;
+	margin-left:15px;
+	font-size:15px;
+}
