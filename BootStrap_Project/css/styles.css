@@ -54,7 +54,7 @@ button{
 	border:none; 
 	margin:0 0 0 0;
 }
-a{
+button a{
 	color:grey;
 }	
 button a:hover{
@@ -105,23 +105,32 @@ button a:hover{
 	background:url(../images/e5.jpg);
 	border-radius:25px;
 	color:white;
-	font-weight:700;
+	font-weight:100;
 	margin:10px 0 10px 10px; 
-	padding:30px 0; 
+	padding:25px 0; 
 	height:280px;
+}
+.newsLetter input[type~="text"]{
+	color:black;
+	font-size:16px;
 }	
 .blogPost{
 	background-color:#F5F5DC;
 	border:1px solid grey;
+	border-top:2px solid black;
+	border-bottom:3px solid black;
 	margin:10px 0;
+	padding-bottom:20px;
 }
 .blogPost img{
-	height:180px;
+	height:210px;
 	width:70%;
 	margin:5px auto;
+	margin-bottom:20px;
 }
 .blogPost a{
 	color:lightSeaGreen;
 	margin-left:15px;
 	font-size:15px;
 }
+
